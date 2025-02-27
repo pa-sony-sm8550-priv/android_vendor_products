@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platform/kalama.xml" />
+
+  <project path="device/sony/pdx234" name="device_sony_pdx234" remote="pa-sony-sm8550-priv" revision="vauxite" />
+  <project path="device/sony/pdx234-kernel" name="device_sony_pdx234-kernel" remote="pa-sony-sm8550-priv" revision="vauxite" clone-depth="1" />
+  <project path="hardware/sony" name="hardware_sony" remote="pa-sony-sm8550-priv" revision="vauxite" />
+  <project path="vendor/sony/pdx234" name="vendor_sony_pdx234" remote="pa-sony-sm8550-priv" revision="vauxite" clone-depth="1" />
+  <project path="vendor/sony/common" name="vendor_sony_common" remote="pa-sony-sm8550-priv" revision="vauxite" clone-depth="1" />
+  <project path="vendor/opensource/display-drivers" name="vendor_opensource_display-drivers" remote="pa-sony-sm8550-priv" revision="vauxite" clone-depth="1" />
+  <project path="kernel_platform/msm-kernel" name="kernel_msm-5.15" remote="pa-sony-sm8550-priv" revision="vauxite" clone-depth="1" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="pa-sony-sm8550-priv" revision="vauxite" clone-depth="1" />
+</manifest>

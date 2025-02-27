@@ -1,13 +1,22 @@
+# Copyright (C) 2021 Paranoid Android
 #
-# Copyright (C) 2025 The AtomX Project
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
 #
-# SPDX-License-Identifier: Apache-2.0
+#      http://www.apache.org/licenses/LICENSE-2.0
 #
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
 
 # Product Makefiles
-PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/nord4/atomx_nord4.mk \
-    $(LOCAL_DIR)/oneplus12/atomx_oneplus12.mk \
-    $(LOCAL_DIR)/phone2/atomx_phone2.mk \
-    $(LOCAL_DIR)/uke/atomx_uke.mk \
-    $(LOCAL_DIR)/vayu/atomx_vayu.mk
+PRODUCT_MAKEFILES += $(LOCAL_DIR)/pdx234/atomx_pdx234.mk
+
+# Lunch targets
+COMMON_LUNCH_CHOICES += \
+    atomx_pdx234-user \
+    atomx_pdx234-userdebug \
+    atomx_pdx234-eng
